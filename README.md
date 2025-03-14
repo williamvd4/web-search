@@ -1,5 +1,7 @@
 # Web Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@williamvd4/web-search)](https://smithery.ai/server/@williamvd4/web-search)
+
 A Model Context Protocol (MCP) server that enables free web searching using Google search results, with no API keys required.
 
 ## Features
@@ -11,6 +13,15 @@ A Model Context Protocol (MCP) server that enables free web searching using Goog
 
 ## Installation
 
+### Installing via Smithery
+
+To install web-search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@williamvd4/web-search):
+
+```bash
+npx -y @smithery/cli install @williamvd4/web-search --client claude
+```
+
+### Manual Installation
 1. Clone or download this repository
 2. Install dependencies:
 ```bash
